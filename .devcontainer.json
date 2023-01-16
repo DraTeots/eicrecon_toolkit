@@ -1,0 +1,13 @@
+{
+  "image": "eicweb/jug_xl:nightly"
+  
+    //"build": { "dockerfile": "Dockerfile" }//,
+  
+    // "customizations": {
+    //   "vscode": {
+    //     "extensions": ["ms-vscode.cpptools", "ms-vscode.cmake-tools"]
+    //   }
+    // },
+  
+    // "forwardPorts": [3000]
+  }

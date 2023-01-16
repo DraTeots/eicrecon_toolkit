@@ -1,0 +1,3 @@
+[submodule "EICrecon"]
+	path = EICrecon
+	url = git@github.com:eic/EICrecon.git
