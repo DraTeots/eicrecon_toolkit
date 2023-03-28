@@ -2,3 +2,6 @@
 	path = eicrecon
 	url = git@github.com:eic/EICrecon.git
 	branch = main
+[submodule "JANA2"]
+	path = JANA2
+	url = git@github.com:JeffersonLab/JANA2.git
