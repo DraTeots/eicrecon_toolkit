@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="tracking_test_plugin" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-Pnthreads=1 -Pjana:debug_plugin_loading=1 -Pjana:nevents=1 -Pjana:debug_mode=1 -Pjana:timeout=0 -Pdd4hep:xml_files=epic_brycecanyon /mnt/work/data/eicrecon/2023-03-26_pgun_pi-_epic_brycecanyon_e0.01-30GeV_alldir_1prt_100evt_dd4hep-25-01.edm4hep.root" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="eicrecon_toolbox" TARGET_NAME="tracking_test_plugin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="eicrecon_toolbox" RUN_TARGET_NAME="eicrecon">
+    <envs>
+      <env name="JANA_PLUGIN_PATH" value="$PROJECT_DIR$/lib/EICrecon/plugins:$PROJECT_DIR$/../soft/eicrecon/main/lib/EICrecon/plugins::$PROJECT_DIR$/../soft/jana2/jana2-master/plugins" />
+    </envs>
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      <option name="CMake.Install" enabled="true" />
+    </method>
+  </configuration>
+</component>
